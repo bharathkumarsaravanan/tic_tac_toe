@@ -17,7 +17,7 @@ function App(){
 
                     var lastItem = pB[pB.length-1];
                     var item = cells[i][j];
-                    
+
                     if (pB.length == 0) {
                         if(!pA.includes(item)) {
                             setPB([item]);
@@ -96,63 +96,63 @@ function App(){
 
     useEffect(() => {
         if (pA.includes(1)&&pA.includes(2)&&pA.includes(3)) {
-            alert("Player A won")
+            alert("You won")
             setPA([]);
             setPB([]);
 
         } else if (pA.includes(4)&&pA.includes(5)&&pA.includes(6)) {
-            alert("Player A won")
+            alert("You won")
             setPA([]);
             setPB([]);
 
         } else if (pA.includes(7)&&pA.includes(8)&&pA.includes(9)) {
-            alert("Player A won")
+            alert("You won")
             setPA([]);
             setPB([]);
       
         } else if (pA.includes(1)&&pA.includes(4)&&pA.includes(7)) {
-            alert("Player A won")
+            alert("You won")
             setPA([]);
             setPB([]);
       
         } else if (pA.includes(2)&&pA.includes(5)&&pA.includes(8)) {
-            alert("Player A won")
+            alert("You won")
             setPA([]);
             setPB([]);
       
         } else if (pA.includes(3)&&pA.includes(6)&&pA.includes(9)) {
-            alert("Player A won")
+            alert("You won")
             setPA([]);
             setPB([]);
 
         } else {
             if (pB.includes(1)&&pB.includes(2)&&pB.includes(3)) {
-                alert("Player B won")
+                alert("You loss")
                 setPA([]);
                 setPB([]);
 
             } else if (pB.includes(4)&&pB.includes(5)&&pB.includes(6)) {
-                alert("Player B won")
+                alert("You loss")
                 setPA([]);
                 setPB([]);
     
             } else if (pB.includes(7)&&pB.includes(8)&&pB.includes(9)) {
-                alert("Player B won")
+                alert("You loss")
                 setPA([]);
                 setPB([]);
     
             } else if (pB.includes(1)&&pB.includes(4)&&pB.includes(7)) {
-                alert("Player B won")
+                alert("You loss")
                 setPA([]);
                 setPB([]);
     
             } else if (pB.includes(2)&&pB.includes(5)&&pB.includes(8)) {
-                alert("Player B won")
+                alert("You loss")
                 setPA([]);
                 setPB([]);
     
             } else if (pB.includes(3)&&pB.includes(6)&&pB.includes(9)) {
-                alert("Player B won")
+                alert("You loss")
                 setPA([]);
                 setPB([]);
     
