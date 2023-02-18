@@ -1,18 +1,6 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 function Cell(props){
-
-    const [data, setData] = useState("");
-
-    useEffect(() => {
-        if(props.pA.includes(props.value)){
-            setData("X")
-        }
-        if(props.pB.includes(props.value)){
-            setData("O");
-        }
-    },[props.pA, props.pB]);
 
     function handleClick(){
         props.returnValue(props.value);
@@ -20,7 +8,7 @@ function Cell(props){
 
     return(
         <td onClick={handleClick}>
-            {data}
+            {props.data}
         </td>
     )
 }
